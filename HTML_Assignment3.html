@@ -8,44 +8,36 @@
 </head>
 <body>
    <form method="POST">
-       <label for="firstName">First Name:</label><br>
-       <input type= "text" id="firstName" required>
-       <br><br>
+       <p><label for="firstName">First Name:</label><br>
+       <input type= "text" id="firstName" required></p>
 
-       <label for="lastName">Last Name:</label><br>
-       <input type= "text" id="lastName" required>
-       <br><br>
+       <p><label for="lastName">Last Name:</label><br>
+       <input type= "text" id="lastName" required></p>
 
-       <label for="email">Email:</label><br>
-       <input type="email" id="email" required>
-       <br><br>
+       <p><label for="email">Email:</label><br>
+       <input type="email" id="email" required></p>
 
-       <label for="contact">Contact Number:</label><br>
-       <input type="tel" id="contact" required>
-       <br><br>
+       <p><label for="contact">Contact Number:</label><br>
+       <input type="tel" id="contact" required></p>
 
-       <label for="address">Address:</label><br>
-       <textarea id="address" rows="5" cols="30" required>
-       </textarea>
-       <br><br>
+       <p><label for="address">Address:</label><br>
+       <textarea id="address" rows="3" cols="22" required>
+       </textarea></p>
 
-       <label for="username">Username:</label><br>
-       <input type="text" id="username" required>
-       <br><br>
+       <p><label for="username">Username:</label><br>
+       <input type="text" id="username" required></p>
 
-       <label for="psw">Password:</label><br>
-       <input type="password" id="psw" required>
-       <br><br>
+       <p><label for="psw">Password:</label><br>
+       <input type="password" id="psw" required></p>
        
-       <label>Gender:</label><br>
+       <p><label>Gender:</label><br>
        <input type="radio" id="male" name="gender" value="male"/>
        <label for="male">Male</label>
        <br>
        <input type="radio" id="female" name="gender" value="female"/>
-       <label for="female">Female</label>
-       <br><br>
+       <label for="female">Female</label></p>
 
-       <label for="qualification">Qualification:</label><br>
+       <p><label for="qualification">Qualification:</label><br>
        <select id="qualification">
            <option value="selectQ" selected>--Select--</option>
            <option value="MTech">M.Tech</option>
@@ -53,20 +45,18 @@
            <option value="BE">B.E.</option>
            <option value="BCA">BCA</option>
            <option value="Diploma">Diploma</option>
-       </select>
-           <br><br>
+       </select></p>
 
-        <label for="exp">Experience:</label><br>
-        <select id="exp">
+       <p><label for="exp">Experience:</label><br>
+       <select id="exp">
            <option value="selectExp" selected>--Select--</option>
            <option value="zero">Less Than 0</option>
            <option value="one">0-1</option>
            <option value="three">3-5</option>
            <option value="five">5 or more</option>
-        </select>
-           <br><br>
+        </select></p>
 
-       <label>Coding Languages:</label><br>
+    <p><label>Coding Languages:</label><br>
        <input type="checkbox" id="cpp" name="cpp" value="C++">
        <label for ="cpp">C/C++</label>
        <br>
@@ -80,11 +70,9 @@
        <label for ="php">PHP</label>
        <br>
        <input type="checkbox" id="py" name="py" value="Python">
-       <label for ="py">Python</label>
-       <br><br><br>
+       <label for ="py">Python</label></p><br>
+
    <button type="submit" id="submit">Submit</button>
-
-
-   </form>
+</form>
 </body>
 </html>
